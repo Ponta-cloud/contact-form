@@ -1,0 +1,15 @@
+current directory: /Users/moriyaryouta/Documents/contact-practice/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/moriyaryouta/.rbenv/versions/2.6.6/bin/ruby -I /Users/moriyaryouta/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210609-40209-glasy2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/moriyaryouta/Documents/contact-practice/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/moriyaryouta/Documents/contact-practice/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/moriyaryouta/Documents/contact-practice/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20210609-40209-1kxj6r8/skiptrace/internal
