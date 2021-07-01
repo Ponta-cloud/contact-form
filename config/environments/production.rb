@@ -69,7 +69,7 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
 
   config.action_mailer.default_url_options   = { host: 'contact-form20210609.herokuapp.com' }
-  config.action_mailer.delicery_method       = :smtp
+  config.action_mailer.delivery_method       = :smtp
   ActionMailer::Base.smtp_settings           = {
       address:              'smtp.gmail.com',
       port:                 '587',
